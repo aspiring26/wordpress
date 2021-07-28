@@ -10,6 +10,7 @@ test the docker run, you can run docker run hello-world
 
 #deploy the compose.yml
 - run docker-compose up -d
+- after all is installed, you can check the status of your containers using; docker-compose ps
 
 #deploy scalable wordpress
 if you need scalable, deploy this compose to another server:
